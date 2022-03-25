@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context = "http://www.springframework.org/schema/context"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+      http://www.springframework.org/schema/context
+      http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<context:annotation-config />
+
+	<bean id="beanTemplate" abstract="true">
+		<property name="message1" value="Hello!"/>
+		<property name="message2" value="Hello World Returns!"/>
+		<property name="message3" value="Triple Hello World!"/>
+	</bean>
+
+	<bean id="helloWorld" class="com.springdemo.HelloWorld">
+		<property name="message1" value="Hello World!"/>
+		<property name="message2" value="Hello World Returns!"/>
+	</bean>
+	
+	<bean id="helloIndia" class="com.springdemo.HelloIndia" parent="beanTemplate">
+		<property name="message2" value="Hello India Returns!"/>
+		<property name="message3" value="Hello India Back Again!"/>
+	</bean>
+	
+	<bean id="cStartedEventHandler" class="com.springdemo.CStartedEventHandler"/>
+	<bean id="cStoppedEventHandler" class="com.springdemo.CStoppedEventHandler"/>
+</beans>
