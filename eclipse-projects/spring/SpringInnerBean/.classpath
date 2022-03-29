@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-aop-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-aspects-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-beans-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-context-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-context-indexer-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-context-support-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-core-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-expression-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-instrument-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-jcl-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-jdbc-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-jms-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-messaging-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-orm-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-oxm-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-test-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-tx-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-web-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-webflux-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-webmvc-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-5.2.9.RELEASE-dist/spring-framework-5.2.9.RELEASE/modules/spring-websocket-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/commons-logging-1.2-bin/commons-logging-1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
