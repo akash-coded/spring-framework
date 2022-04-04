@@ -1,0 +1,561 @@
+2022-04-01 20:45:46,850 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 46348 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 20:45:46,850 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 20:45:47,034 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 20:45:47,035 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 20:45:47,035 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 20:45:47,046 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 20:45:47,047 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 195 ms
+2022-04-01 20:45:47,139 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 20:45:47,142 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 20:45:47,153 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 20:45:47,159 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 0.356 seconds (JVM running for 332.509)
+2022-04-01 20:45:47,161 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-01 20:47:21,936 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 46348 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 20:47:21,936 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 20:47:22,119 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 20:47:22,120 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 20:47:22,120 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 20:47:22,130 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 20:47:22,130 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 192 ms
+2022-04-01 20:47:22,214 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 20:47:22,216 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 20:47:22,224 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 20:47:22,229 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 0.318 seconds (JVM running for 427.58)
+2022-04-01 20:47:22,233 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file.name logs/application.log (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-04-01 20:47:48,045 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(12)-127.0.0.1] Application shutdown requested.
+2022-04-01 20:47:55,610 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 53836 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 20:47:55,611 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 20:47:55,659 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-01 20:47:55,660 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-01 20:47:56,623 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 20:47:56,632 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-01 20:47:56,633 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 20:47:56,633 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 20:47:56,689 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 20:47:56,689 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1028 ms
+2022-04-01 20:47:57,176 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 20:47:57,180 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 20:47:57,200 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-01 20:47:57,228 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 20:47:57,241 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 2.068 seconds (JVM running for 2.788)
+2022-04-01 20:47:58,542 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-01 20:47:58,543 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-04-01 20:47:58,544 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 1 ms
+2022-04-01 20:48:16,689 INFO com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-1] An INFO Message
+2022-04-01 20:48:16,690 WARN com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-1] A WARN Message
+2022-04-01 20:48:16,690 ERROR com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-1] An ERROR Message
+2022-04-01 20:51:29,088 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 53836 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 20:51:29,088 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 20:51:29,298 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 20:51:29,299 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-01 20:51:29,300 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 20:51:29,300 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 20:51:29,312 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 20:51:29,312 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 222 ms
+2022-04-01 20:51:29,412 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 20:51:29,413 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 20:51:29,421 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-01 20:51:29,424 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 20:51:29,430 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 0.366 seconds (JVM running for 214.977)
+2022-04-01 20:51:29,432 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-01 20:51:40,572 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-01 20:51:40,572 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-04-01 20:51:40,573 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-04-01 20:51:40,575 INFO com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-1] An INFO Message
+2022-04-01 20:51:40,575 WARN com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-1] A WARN Message
+2022-04-01 20:51:40,575 ERROR com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-1] An ERROR Message
+2022-04-01 21:11:38,031 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(30)-127.0.0.1] Application shutdown requested.
+2022-04-01 21:23:08,554 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 60284 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 21:23:08,556 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 21:23:08,586 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-01 21:23:08,586 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-01 21:23:09,422 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 21:23:09,430 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:23:09,431 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 21:23:09,431 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 21:23:09,477 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 21:23:09,477 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 890 ms
+2022-04-01 21:23:09,875 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 21:23:09,879 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 21:23:09,894 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:23:09,907 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 21:23:09,917 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 1.658 seconds (JVM running for 2.129)
+2022-04-01 21:23:12,660 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-01 21:23:12,661 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-04-01 21:23:12,661 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 0 ms
+2022-04-01 21:24:10,641 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested.
+2022-04-01 21:31:34,436 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 54688 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 21:31:34,438 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 21:31:34,472 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-01 21:31:34,473 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-01 21:31:35,241 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 21:31:35,248 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:31:35,248 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 21:31:35,248 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 21:31:35,288 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 21:31:35,288 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 814 ms
+2022-04-01 21:31:35,669 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 21:31:35,673 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 21:31:35,689 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:31:35,702 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 21:31:35,711 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 1.625 seconds (JVM running for 2.231)
+2022-04-01 21:31:37,975 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-01 21:31:37,975 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-04-01 21:31:37,976 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 1 ms
+2022-04-01 21:33:15,753 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 54688 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 21:33:15,754 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 21:33:15,957 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 21:33:15,959 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:33:15,959 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 21:33:15,959 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 21:33:15,975 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 21:33:15,975 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 219 ms
+2022-04-01 21:33:16,102 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 21:33:16,104 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 21:33:16,111 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:33:16,114 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 21:33:16,119 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 0.391 seconds (JVM running for 102.639)
+2022-04-01 21:33:16,121 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-01 21:33:54,464 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-01 21:33:54,464 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-04-01 21:33:54,465 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2022-04-01 21:33:54,483 INFO com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-1] An INFO Message
+2022-04-01 21:33:54,483 WARN com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-1] A WARN Message
+2022-04-01 21:33:54,483 ERROR com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-1] An ERROR Message
+2022-04-01 21:34:37,008 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 54688 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 21:34:37,008 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 21:34:37,165 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 21:34:37,165 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:34:37,165 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 21:34:37,166 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 21:34:37,175 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 21:34:37,175 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 165 ms
+2022-04-01 21:34:37,260 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 21:34:37,262 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 21:34:37,269 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:34:37,272 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 21:34:37,277 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 0.288 seconds (JVM running for 183.797)
+2022-04-01 21:34:37,279 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-01 21:34:42,436 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-01 21:34:42,436 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-04-01 21:34:42,437 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-04-01 21:34:42,439 INFO com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-1] An INFO Message
+2022-04-01 21:34:42,439 WARN com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-1] A WARN Message
+2022-04-01 21:34:42,439 ERROR com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-1] An ERROR Message
+2022-04-01 21:35:30,598 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 54688 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 21:35:30,599 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 21:35:30,792 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 21:35:30,793 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:35:30,793 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 21:35:30,793 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 21:35:30,809 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 21:35:30,809 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 209 ms
+2022-04-01 21:35:30,953 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 21:35:30,956 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 21:35:30,967 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:35:30,973 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 21:35:30,981 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 0.402 seconds (JVM running for 237.501)
+2022-04-01 21:35:30,986 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint:
+      Did not match:
+         - Log File did not find logging file (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-04-01 21:37:06,074 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 54688 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 21:37:06,074 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 21:37:06,222 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 21:37:06,223 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:37:06,223 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 21:37:06,223 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 21:37:06,232 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 21:37:06,232 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 157 ms
+2022-04-01 21:37:06,299 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 21:37:06,301 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 21:37:06,306 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:37:06,310 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 21:37:06,314 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 0.259 seconds (JVM running for 332.835)
+2022-04-01 21:37:06,315 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-01 21:37:16,926 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 54688 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 21:37:16,926 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 21:37:17,074 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 21:37:17,074 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:37:17,074 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 21:37:17,074 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 21:37:17,124 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 21:37:17,124 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 196 ms
+2022-04-01 21:37:17,195 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 21:37:17,198 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 21:37:17,204 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:37:17,206 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 21:37:17,210 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 0.301 seconds (JVM running for 343.731)
+2022-04-01 21:37:17,212 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file.name logs/logfile.log (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-04-01 21:37:54,298 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 54688 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 21:37:54,299 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 21:37:54,550 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 21:37:54,551 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:37:54,551 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 21:37:54,551 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 21:37:54,560 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 21:37:54,560 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 260 ms
+2022-04-01 21:37:54,654 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 21:37:54,656 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 21:37:54,662 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:37:54,665 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 21:37:54,669 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 0.389 seconds (JVM running for 381.189)
+2022-04-01 21:37:54,670 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-01 21:41:07,431 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 54688 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 21:41:07,432 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 21:41:07,583 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 21:41:07,583 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:41:07,583 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 21:41:07,583 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 21:41:07,591 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 21:41:07,591 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 158 ms
+2022-04-01 21:41:07,662 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 21:41:07,664 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 21:41:07,670 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:41:07,672 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 21:41:07,677 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 0.263 seconds (JVM running for 574.198)
+2022-04-01 21:41:07,678 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-01 21:41:51,505 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-01 21:41:51,506 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-04-01 21:41:51,507 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2022-04-01 21:41:51,508 INFO com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-2] An INFO Message
+2022-04-01 21:41:51,508 WARN com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-2] A WARN Message
+2022-04-01 21:41:51,508 ERROR com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-2] An ERROR Message
+2022-04-01 21:44:00,206 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 54688 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 21:44:00,207 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 21:44:00,359 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 21:44:00,360 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:44:00,360 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 21:44:00,360 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 21:44:00,368 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 21:44:00,368 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 160 ms
+2022-04-01 21:44:00,438 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 21:44:00,440 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 21:44:00,445 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:44:00,451 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 21:44:00,456 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 0.266 seconds (JVM running for 746.976)
+2022-04-01 21:44:00,458 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint:
+      Did not match:
+         - Log File did not find logging file (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-04-01 21:44:20,222 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 54688 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 21:44:20,222 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 21:44:20,375 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 21:44:20,376 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:44:20,376 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 21:44:20,376 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 21:44:20,384 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 21:44:20,384 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 161 ms
+2022-04-01 21:44:20,455 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 21:44:20,456 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 21:44:20,462 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:44:20,464 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 21:44:20,469 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 0.262 seconds (JVM running for 766.988)
+2022-04-01 21:44:20,470 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file.name logs/logfile.log (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-04-01 21:44:29,630 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(17)-127.0.0.1] Application shutdown requested.
+2022-04-01 21:44:36,798 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 51340 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 21:44:36,799 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 21:44:36,828 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-01 21:44:36,828 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-01 21:44:37,587 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 21:44:37,595 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:44:37,596 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 21:44:37,596 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 21:44:37,644 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 21:44:37,644 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 816 ms
+2022-04-01 21:44:38,070 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 21:44:38,074 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 21:44:38,091 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:44:38,111 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 21:44:38,123 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 1.606 seconds (JVM running for 2.12)
+2022-04-01 21:44:39,288 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-01 21:44:39,289 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-04-01 21:44:39,289 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 0 ms
+2022-04-01 21:46:20,273 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 51340 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 21:46:20,274 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 21:46:20,446 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 21:46:20,446 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:46:20,447 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 21:46:20,447 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 21:46:20,457 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 21:46:20,457 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 182 ms
+2022-04-01 21:46:20,548 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 21:46:20,549 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 21:46:20,555 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:46:20,559 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 21:46:20,563 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 0.31 seconds (JVM running for 104.56)
+2022-04-01 21:46:20,565 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-01 21:46:34,211 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 51340 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 21:46:34,211 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-01 21:46:34,211 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 21:46:34,374 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 21:46:34,374 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:46:34,374 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 21:46:34,375 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 21:46:34,385 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 21:46:34,385 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 172 ms
+2022-04-01 21:46:34,472 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 21:46:34,473 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 21:46:34,479 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:46:34,482 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 21:46:34,487 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 0.294 seconds (JVM running for 118.484)
+2022-04-01 21:46:34,489 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-01 21:47:46,192 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 51340 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 21:47:46,192 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-01 21:47:46,192 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 21:47:46,355 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 21:47:46,356 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:47:46,356 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 21:47:46,356 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 21:47:46,365 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 21:47:46,365 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 171 ms
+2022-04-01 21:47:46,449 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 21:47:46,452 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 21:47:46,459 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:47:46,462 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 21:47:46,467 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 0.297 seconds (JVM running for 190.464)
+2022-04-01 21:47:46,471 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint:
+      Did not match:
+         - Log File did not find logging file (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-04-01 21:47:49,400 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(7)-127.0.0.1] Application shutdown requested.
+2022-04-01 21:47:53,378 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 8480 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 21:47:53,379 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-01 21:47:53,380 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 21:47:53,407 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-01 21:47:53,408 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-01 21:47:54,138 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 21:47:54,144 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:47:54,145 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 21:47:54,145 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 21:47:54,185 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 21:47:54,185 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 777 ms
+2022-04-01 21:47:54,568 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 21:47:54,572 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 21:47:54,589 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-01 21:47:54,603 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 21:47:54,613 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 1.511 seconds (JVM running for 1.935)
+2022-04-01 21:47:54,633 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-01 21:47:54,633 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-04-01 21:47:54,634 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 1 ms
+2022-04-01 21:48:12,880 TRACE com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-1] A TRACE Message
+2022-04-01 21:48:12,880 DEBUG com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-1] A DEBUG Message
+2022-04-01 21:48:12,880 INFO com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-1] An INFO Message
+2022-04-01 21:48:12,881 WARN com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-1] A WARN Message
+2022-04-01 21:48:12,881 ERROR com.springbootdemo.requesthandlingdemo.controller.HomeController [http-nio-8080-exec-1] An ERROR Message
+2022-04-01 21:50:31,606 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(7)-127.0.0.1] Application shutdown requested.
+2022-04-01 23:52:27,862 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootRequestHandlingDemoApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 14432 (C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\eclipse-workspace\springBootRequestHandlingDemo)
+2022-04-01 23:52:27,864 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-01 23:52:27,864 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-01 23:52:27,903 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-01 23:52:27,904 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-01 23:52:28,929 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-01 23:52:28,941 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-01 23:52:28,941 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-01 23:52:28,942 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-01 23:52:29,005 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-01 23:52:29,006 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1101 ms
+2022-04-01 23:52:29,640 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-01 23:52:29,646 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-01 23:52:29,664 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-01 23:52:29,680 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-01 23:52:29,692 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootRequestHandlingDemoApplication in 2.223 seconds (JVM running for 2.856)
+2022-04-01 23:52:32,339 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-01 23:52:32,339 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-04-01 23:52:32,341 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 2 ms
+2022-04-01 23:52:45,235 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
