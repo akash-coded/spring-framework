@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-aop-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-aspects-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-beans-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-context-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-context-indexer-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-context-support-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-core-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-expression-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-instrument-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-jcl-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-jdbc-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-jms-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-messaging-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-orm-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-oxm-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-test-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-tx-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-web-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-webflux-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-webmvc-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akash/My Files/Codes and Projects/dependencies/java/spring-project-dependencies/spring-websocket-5.2.9.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
