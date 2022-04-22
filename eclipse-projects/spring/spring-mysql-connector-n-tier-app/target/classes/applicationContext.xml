@@ -1,0 +1,25 @@
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+      http://www.springframework.org/schema/context
+      http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<bean id="databaseConnection" class="com.spring.mysql.connector.n.tier.demo.utils.DatabaseConnection" scope="singleton" lazy-init="true" init-method="printConnectionDetails">
+		<constructor-arg index="0" value="jdbc:mysql://localhost:3307/jdbc_demo"></constructor-arg>
+		<constructor-arg index="1" value="root"></constructor-arg>
+		<constructor-arg index="2" value="password"></constructor-arg>
+	</bean>
+	
+	<bean id="workerRepository" class="com.spring.mysql.connector.n.tier.demo.repositories.WorkerRepository" lazy-init="true">
+		<constructor-arg index="0" ref="databaseConnection"></constructor-arg>
+	</bean>
+
+	<bean id="workerService" class="com.spring.mysql.connector.n.tier.demo.services.WorkerService" lazy-init="true">
+		<constructor-arg index="0" ref="workerRepository"></constructor-arg>
+	</bean>
+
+
+	<bean id="workerController" class="com.spring.mysql.connector.n.tier.demo.controllers.WorkerController" lazy-init="true">
+		<constructor-arg index="0" ref="workerService"></constructor-arg>
+	</bean>
+
+</beans>
