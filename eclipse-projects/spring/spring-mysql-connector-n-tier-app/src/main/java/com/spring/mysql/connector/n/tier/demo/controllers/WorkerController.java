@@ -41,7 +41,7 @@ public class WorkerController {
 		try {
 			List<Worker> workers = this.workerService.getAllWorkers();
 			
-			return workers.isEmpty() ? "Empty set!" : workers.stream().map(Worker::toString).reduce("", (workerRecords, workerString) -> workerRecords + "\n" + workerString);
+			return workers.isEmpty() ? "Empty set!" : workers.toString();
 		} catch (SQLException ex) {
 			System.out.println("Exception occurred while fetching all worker records!\n" + ex);
 		}

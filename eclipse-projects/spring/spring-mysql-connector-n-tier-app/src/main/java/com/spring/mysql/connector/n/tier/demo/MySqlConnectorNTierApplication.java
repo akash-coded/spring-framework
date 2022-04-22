@@ -21,7 +21,7 @@ public class MySqlConnectorNTierApplication {
 		System.out.println("Retrieving a worker record::");
 		System.out.println(workerController.get(10) + "\n");
 		
-		System.out.print("Retrieving all worker records::");
+		System.out.println("Retrieving all worker records::");
 		System.out.println(workerController.getAll() + "\n");
 		
 		System.out.println("Updating a worker record::");

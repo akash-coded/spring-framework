@@ -108,13 +108,23 @@ public class WorkerRepository implements WorkerDao {
 		String updateWorkerFormat = """
 				UPDATE Worker
 				SET
-				    FIRST_NAME = ?
+				    WORKER_ID = ?,
+				    FIRST_NAME = ?,
+				    LAST_NAME = ?,
+				    SALARY = ?,
+				    JOINING_DATE = ?,
+				    DEPARTMENT = ?  
 				WHERE
 				    WORKER_ID = ?""";
 
 		try (PreparedStatement preparedStatement = connection.prepareStatement(updateWorkerFormat);) {
-			preparedStatement.setString(1, "Tony");
-			preparedStatement.setInt(2, 10);
+			preparedStatement.setInt(1, worker.getWorkerId());
+			preparedStatement.setString(2, worker.getFirstName());
+			preparedStatement.setString(3, worker.getLastName());
+			preparedStatement.setInt(4, worker.getSalary());
+			preparedStatement.setTimestamp(5, worker.getJoiningDate());
+			preparedStatement.setString(6, worker.getDepartment());
+			preparedStatement.setInt(7, worker.getWorkerId());
 			return preparedStatement.executeUpdate();
 		}
 	}
