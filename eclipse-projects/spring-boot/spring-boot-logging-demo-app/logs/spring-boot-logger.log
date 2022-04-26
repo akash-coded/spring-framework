@@ -1,0 +1,31 @@
+2022-04-24 23:04:23,311 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootLoggingDemoAppApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 36100 (C:\Users\akash\My Files\Codes and Projects\projects\java\spring-framework\spring-boot\spring-boot-logging-demo-app\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\projects\java\spring-framework\spring-boot\spring-boot-logging-demo-app)
+2022-04-24 23:04:23,312 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-24 23:04:23,411 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8085 (http)
+2022-04-24 23:04:23,412 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-24 23:04:23,412 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-04-24 23:04:23,422 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-24 23:04:23,422 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 108 ms
+2022-04-24 23:04:23,468 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-04-24 23:04:23,474 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8085 (http) with context path ''
+2022-04-24 23:04:23,476 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootLoggingDemoAppApplication in 0.216 seconds (JVM running for 1203.185)
+2022-04-24 23:04:23,477 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-24 23:05:24,903 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringBootLoggingDemoAppApplication using Java 16.0.2 on LAPTOP-FLOWX13-AKASH with PID 36100 (C:\Users\akash\My Files\Codes and Projects\projects\java\spring-framework\spring-boot\spring-boot-logging-demo-app\target\classes started by akash in C:\Users\akash\My Files\Codes and Projects\projects\java\spring-framework\spring-boot\spring-boot-logging-demo-app)
+2022-04-24 23:05:24,904 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-24 23:05:24,995 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8085 (http)
+2022-04-24 23:05:24,996 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-24 23:05:24,996 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-04-24 23:05:25,062 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-24 23:05:25,063 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 157 ms
+2022-04-24 23:05:25,094 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-04-24 23:05:25,099 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8085 (http) with context path ''
+2022-04-24 23:05:25,101 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringBootLoggingDemoAppApplication in 0.219 seconds (JVM running for 1264.809)
+2022-04-24 23:05:25,101 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-24 23:05:32,701 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8085-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-24 23:05:32,702 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-04-24 23:05:32,702 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-1] Completed initialization in 0 ms
+2022-04-24 23:05:32,703 INFO com.spring.boot.logging.demo.interceptors.IPAddressInterceptor [http-nio-8085-exec-1] Incoming request from 0:0:0:0:0:0:0:1
+2022-04-24 23:05:32,703 INFO com.spring.boot.logging.demo.controllers.LoggingDemoController [http-nio-8085-exec-1] An INFO Message
+2022-04-24 23:05:32,703 WARN com.spring.boot.logging.demo.controllers.LoggingDemoController [http-nio-8085-exec-1] A WARN Message
+2022-04-24 23:05:32,703 ERROR com.spring.boot.logging.demo.controllers.LoggingDemoController [http-nio-8085-exec-1] An ERROR Message
+2022-04-24 23:06:30,976 INFO com.spring.boot.logging.demo.interceptors.IPAddressInterceptor [http-nio-8085-exec-3] Incoming request from 0:0:0:0:0:0:0:1
+2022-04-24 23:06:30,977 INFO com.spring.boot.logging.demo.controllers.LoggingDemoController [http-nio-8085-exec-3] Message received:: Test
