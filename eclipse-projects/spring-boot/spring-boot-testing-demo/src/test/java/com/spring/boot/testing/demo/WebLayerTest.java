@@ -11,6 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.test.web.servlet.MockMvc;
 
+import com.spring.boot.testing.demo.controllers.HomeController;
+
 /**
  * Spring Boot instantiates only the web layer rather than the whole context
  * 
@@ -20,8 +22,8 @@ import org.springframework.test.web.servlet.MockMvc;
  * @author akash
  *
  */
-@WebMvcTest
-//@WebMvcTest(HomeController.class)
+//@WebMvcTest
+@WebMvcTest(HomeController.class)
 public class WebLayerTest {
 
 	@Autowired
