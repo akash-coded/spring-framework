@@ -11,6 +11,12 @@ public class HomeController {
 	
 	@GetMapping("/")
 	public String index() {
+		System.out.println("A TRACE Message");
+		System.out.println("A DEBUG Message");
+		System.out.println("An INFO Message");
+		System.out.println("A WARN Message");
+		System.out.println("An ERROR Message");
+		
         log.trace("A TRACE Message");
         log.debug("A DEBUG Message");
         log.info("An INFO Message");

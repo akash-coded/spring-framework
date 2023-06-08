@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form POST Request Handling</title>
+</head>
+
+<body>
+    <h1>LOGIN-1</h1>
+    <hr>
+    <form action="http://localhost:8080/showAuthCredentials" method="post">
+        <p>
+            E-mail: <input type="text" id="email " name="email" placeholder="abc@xyz.com">
+        </p>
+
+        <p>
+            Password: <input type="password" id="password " name="password">
+        </p>
+
+        <p>
+            <input type="submit" value="Login">
+        </p>
+    </form>
+
+    <h1>LOGIN-2</h1>
+    <hr>
+    <form action="http://localhost:8080/showAllAuthCredentials" method="post">
+        <p>
+            E-mail: <input type="text" id="email " name="email" placeholder="abc@xyz.com">
+        </p>
+
+        <p>
+            Password: <input type="password" id="password " name="password">
+        </p>
+
+        <p>
+            <input type="submit" value="Login">
+        </p>
+    </form>
+</body>
+
+</html>

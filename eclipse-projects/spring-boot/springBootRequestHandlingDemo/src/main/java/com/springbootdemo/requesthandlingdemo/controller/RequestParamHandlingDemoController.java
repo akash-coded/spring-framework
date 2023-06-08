@@ -41,7 +41,13 @@ public class RequestParamHandlingDemoController {
 	// To read data sent by POST method from a form
 	@PostMapping(path = "/showAuthCredentials", 
 			consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE)
-	public String showAuthCredentials(@RequestParam MultiValueMap<String, String> paramMap) {
+	public String showAuthCredentials(@RequestParam String email, @RequestParam String password) {
+		return String.format("Email: %s</br>Password: %s", email, password);
+	}
+	
+	@PostMapping(path = "/showAllAuthCredentials", 
+			consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE)
+	public String showAllAuthCredentials(@RequestParam MultiValueMap<String, String> paramMap) {
 		return String.format("Email: %s</br>Password: %s", paramMap.get("email"), paramMap.get("password"));
 	}
 }
