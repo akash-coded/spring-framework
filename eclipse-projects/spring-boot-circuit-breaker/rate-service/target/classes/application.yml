@@ -1,0 +1,23 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: rate-service
+  datasource:
+    url: jdbc:h2:mem:cb-rate-db
+    username: root
+    password: 123
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+  h2:
+    console:
+      enabled: true
+
+
+
+
+
+
