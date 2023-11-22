@@ -1,0 +1,163 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: order-service
+  datasource:
+    url: jdbc:h2:mem:ordersdb
+    username: sa
+    password: 
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+  h2:
+    console:
+      enabled: true
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health
+  health:
+    circuitbreakers:
+      enabled: true
+  server:
+    port: 9004
+resilience4j:
+  circuitbreaker:
+    instances:
+      order-service-get:
+        registerHealthIndicator: true
+        failureRateThreshold: 50
+        minimumNumberOfCalls: 5
+        automaticTransitionFromOpenToHalfOpenEnabled: true
+        waitDurationInOpenState: 5s
+        permittedNumberOfCallsInHalfOpenState: 3
+        slidingWindowSize: 10
+        slidingWindowType: COUNT_BASED
+      order-service-post:
+        registerHealthIndicator: true
+        failureRateThreshold: 50
+        minimumNumberOfCalls: 5
+        automaticTransitionFromOpenToHalfOpenEnabled: true
+        waitDurationInOpenState: 5s
+        permittedNumberOfCallsInHalfOpenState: 3
+        slidingWindowSize: 10
+        slidingWindowType: COUNT_BASED
+# "components": {
+#     "circuitBreakers": {
+#       "status": "UP",
+#       "details": {
+#         "loan-service": {
+#           "status": "UP",
+#           "details": {
+#             "failureRate": "-1.0%",
+#             "failureRateThreshold": "50.0%",
+#             "slowCallRate": "-1.0%",
+#             "slowCallRateThreshold": "100.0%",
+#             "bufferedCalls": 1,
+#             "slowCalls": 0,
+#             "slowFailedCalls": 0,
+#             "failedCalls": 0,
+#             "notPermittedCalls": 0,
+#             "state": "CLOSED"
+#           }
+#         }
+#       }
+#     }
+# }
+
+# {
+#     "loan-service": {
+#         "status": "UP",
+#         "details": {
+#             "failureRate": "-1.0%",
+#             "failureRateThreshold": "50.0%",
+#             "slowCallRate": "-1.0%",
+#             "slowCallRateThreshold": "100.0%",
+#             "bufferedCalls": 2,
+#             "slowCalls": 0,
+#             "slowFailedCalls": 0,
+#             "failedCalls": 0,
+#             "notPermittedCalls": 0,
+#             "state": "CLOSED"
+#         }
+#     }
+# }
+
+# {
+#     "loan-service": {
+#         "status": "CIRCUIT_OPEN",
+#         "details": {
+#             "failureRate": "60.0%",
+#             "failureRateThreshold": "50.0%",
+#             "slowCallRate": "0.0%",
+#             "slowCallRateThreshold": "100.0%",
+#             "bufferedCalls": 5,
+#             "slowCalls": 0,
+#             "slowFailedCalls": 0,
+#             "failedCalls": 3,
+#             "notPermittedCalls": 0,
+#             "state": "OPEN"
+#         }
+#     }
+# }
+
+# {
+#     "loan-service": {
+#         "status": "CIRCUIT_HALF_OPEN",
+#         "details": {
+#             "failureRate": "-1.0%",
+#             "failureRateThreshold": "50.0%",
+#             "slowCallRate": "-1.0%",
+#             "slowCallRateThreshold": "100.0%",
+#             "bufferedCalls": 0,
+#             "slowCalls": 0,
+#             "slowFailedCalls": 0,
+#             "failedCalls": 0,
+#             "notPermittedCalls": 0,
+#             "state": "HALF_OPEN"
+#         }
+#     }
+# }
+
+# {
+#     "loan-service": {
+#         "status": "CIRCUIT_OPEN",
+#         "details": {
+#             "failureRate": "100.0%",
+#             "failureRateThreshold": "50.0%",
+#             "slowCallRate": "0.0%",
+#             "slowCallRateThreshold": "100.0%",
+#             "bufferedCalls": 3,
+#             "slowCalls": 0,
+#             "slowFailedCalls": 0,
+#             "failedCalls": 3,
+#             "notPermittedCalls": 0,
+#             "state": "OPEN"
+#         }
+#     }
+# }
+
+# {
+#     "loan-service": {
+#         "status": "UP",
+#         "details": {
+#             "failureRate": "-1.0%",
+#             "failureRateThreshold": "50.0%",
+#             "slowCallRate": "-1.0%",
+#             "slowCallRateThreshold": "100.0%",
+#             "bufferedCalls": 0,
+#             "slowCalls": 0,
+#             "slowFailedCalls": 0,
+#             "failedCalls": 0,
+#             "notPermittedCalls": 0,
+#             "state": "CLOSED"
+#         }
+#     }
+# }
