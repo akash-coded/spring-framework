@@ -1,0 +1,5 @@
+server:
+  port: 1010
+spring:
+  application:
+    name: payment-processor

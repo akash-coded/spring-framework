@@ -1,0 +1,24 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: payment-service
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health
+  health:
+    ratelimiters:
+      enabled: true
+resilience4j:
+  ratelimiter:
+    instances:
+      payment-service:
+        limit-for-period: 5
+        limit-refresh-period: 15s
+        timeout-duration: 5s
+        register-health-indicator: true
