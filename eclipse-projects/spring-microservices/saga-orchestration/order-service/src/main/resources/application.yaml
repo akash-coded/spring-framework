@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring.cloud.stream:
+  function:
+    definition: supplier;consumer
+  bindings:
+    supplier-out-0:
+      destination: order-created
+    consumer-in-0:
+      destination: order-updated
+---
+spring:
+  jpa:
+    defer-datasource-initialization: true
