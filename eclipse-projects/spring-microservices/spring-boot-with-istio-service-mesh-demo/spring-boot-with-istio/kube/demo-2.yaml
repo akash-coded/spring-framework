@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-2-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: demo-2-app
+  template:
+    metadata:
+      labels:
+        app: demo-2-app
+    spec:
+      containers:
+        - name: demo-2-app
+          image: arup91/demo-2:latest
+          ports:
+            - containerPort: 8080
+          imagePullPolicy: Always
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: demo-2-app
+spec:
+  selector:
+    app: demo-2-app
+  ports:
+    - port: 8080
+      targetPort: 8080
+
+---
+
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: demo-2-app
+  labels:
+    account: demo-2-app
